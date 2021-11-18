@@ -8,6 +8,10 @@
     "build": "rollup --config",
     "prepublish": "npm run build && jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/justforuse/number-to-chinese.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
