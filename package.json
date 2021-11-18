@@ -1,7 +1,7 @@
 {
-  "name": "number-to-chinese",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@codog/number-to-chinese",
+  "version": "0.0.1",
+  "description": "Transform number to chinese character",
   "main": "index.js",
   "scripts": {
     "test": "jest",
