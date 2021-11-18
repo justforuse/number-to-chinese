@@ -5,16 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "rollup --config",
-    "prepublish": "npm run build && jest"
+    "build": "rollup --config"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/justforuse/number-to-chinese.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "justforuse",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.16.0",
     "@rollup/plugin-commonjs": "^21.0.1",
